@@ -1,0 +1,25 @@
+<service>
+	<id>epapidispatch.exe</id>
+	<name>ep-api-dispatch</name>
+	<description>Elegant plastics Dispatch API for Angular front-end</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Users\nicholast\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>c:\users\nicholast\Documents\GitHub\Private\API\ep_api\index.js</argument>
+	<argument>--log</argument>
+	<argument>ep-api-dispatch wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\Users\nicholast\Documents\GitHub\Private\API\ep_api</workingdirectory>
+</service>
